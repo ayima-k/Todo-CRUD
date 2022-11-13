@@ -1,0 +1,51 @@
+.card{
+  background: whitesmoke;
+  height: 100%;
+  padding-bottom: 5px;
+  h4{
+    margin: 0 30px;
+    padding-top: 10px;
+    font-size: 21px;
+  }
+  form{
+    margin: 30px 30px;
+    div{
+      input{
+        width: 100%;
+        padding: 15px 0px;
+        margin-bottom: 15px;
+        border-radius: 5px;
+      }
+    }
+
+    p{
+      color: gray;
+    }
+  }
+  .btn{
+    margin: 0 30px;
+
+    button{
+      padding: 15px 0;
+      background-color: #4087fb;
+      width: 100%;
+      border:0;
+      color: white;
+      font-weight: bold;
+      cursor: pointer;
+      border-radius: 10px;
+      &:disabled{
+        cursor: default;
+      }
+      &:focus{
+        background-color: #487ccf;
+      }
+    }
+  }
+
+  .to_auth{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+}
