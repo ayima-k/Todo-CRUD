@@ -15,8 +15,8 @@ const Register = () => {
       getRegister({
         email,
         password,
-      }).then((res) => {
-        console.log(res);
+      })
+      .then((res) => {
         if (res) {
           setAlert(true);
           localStorage.setItem('user', JSON.stringify(res.user));
