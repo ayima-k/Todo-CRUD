@@ -12,7 +12,6 @@ const Main = () => {
 
   React.useEffect(() => {
     getTodos(accessToken)
-    .then(r => r.data)
     .then(res => {
       setData(res)
       setUpdateUseEffect('Got')
